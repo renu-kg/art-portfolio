@@ -296,21 +296,51 @@
     var y = document.getElementById('copyrightYear');
     if (y) y.textContent = new Date().getFullYear();
 
-    /* ── Contact form success state ─────────────────────────────── */
+    /* ── Contact form submit handler (AJAX for Netlify Forms & local preview) ── */
     document.getElementById('contactForm')?.addEventListener('submit', function (e) {
-      /* Netlify handles the actual submission server-side.
-         On GitHub Pages / local, prevent default and show success UI. */
-      if (window.location.protocol === 'file:' || !window.netlify) {
-        e.preventDefault();
-        var form    = this;
-        var success = document.getElementById('formSuccess');
-        if (form && success) {
-          form.style.display    = 'none';
+      e.preventDefault();
+      var form    = this;
+      var success = document.getElementById('formSuccess');
+
+      function showSuccess() {
+        if (form) form.style.display = 'none';
+        if (success) {
           success.style.display = 'flex';
           success.setAttribute('tabindex', '-1');
           success.focus();
         }
       }
+
+      /* Local preview fallback */
+      if (window.location.protocol === 'file:') {
+        showSuccess();
+        return;
+      }
+
+      /* Post form data to Netlify */
+      var formData = new FormData(form);
+      var payload  = new URLSearchParams(formData).toString();
+
+      fetch('/', {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body:    payload
+      })
+      .then(function (res) {
+        if (res.ok) {
+          showSuccess();
+          if (window.ArtAnalytics) {
+            window.ArtAnalytics.track('contact_submit', { form: 'contact' });
+          }
+        } else {
+          /* Fallback native submit if HTTP status error */
+          form.submit();
+        }
+      })
+      .catch(function () {
+        /* Fallback native submit if network error */
+        form.submit();
+      });
     });
   </script>
 </body>
