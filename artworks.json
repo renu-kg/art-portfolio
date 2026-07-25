@@ -4,89 +4,199 @@
     "title": "Spider-Man",
     "image": "images/artwork-01.jpeg",
     "medium": "Pencil Sketch",
-    "category": "portrait",
+    "category": "pencil",
     "year": 2026,
     "featured": true,
-    "description": "Inspired by the energy and movement of Spider-Man, this sketch focuses on dynamic anatomy, dramatic lighting, and expressive shading to capture a moment of action frozen in time."
+    "description": "Spider-Man has always been my favorite superhero, and this piece was inspired by both that admiration and the emotion carried by a song that stayed with me while I was drawing. I wanted to capture his energy, determination, and the feeling of never giving up. Created entirely freehand using graphite, the sketch focuses on dynamic anatomy, dramatic lighting, and expressive shading."
   },
   {
     "id": 2,
     "title": "Cosmic Stillness",
     "image": "images/artwork-02.jpeg",
-    "medium": "Fineliner pen on paper",
+    "medium": "Fineliner Pen on Paper",
     "category": "portrait",
     "year": 2026,
     "featured": true,
-    "description": "A symbolic depiction of Lord Shiva in meditation, surrounded by flowing forms that represent balance, energy, and inner peace. Created using expressive pen strokes and layered line work."
+    "description": "Created during Maha Shivaratri, this artwork was completed in a short amount of time, making it one of my quickest detailed pen pieces. While I know there are imperfections, especially in the anatomy, I love how it reflects Lord Shiva's calm presence and quiet strength. Every stroke was drawn freehand with fineliner pens, where patience and steady linework become just as important as the final image."
   },
   {
     "id": 3,
-    "title": "Winter bloom",
+    "title": "Winter Bloom",
     "image": "images/artwork-03.jpeg",
-    "medium": "Fineliner pen on paper",
+    "medium": "Fineliner Pen on Paper",
     "category": "other",
     "year": 2026,
     "featured": false,
-    "description": "A cozy illustration capturing a quiet winter moment. The contrast between the bundled figure and the delicate bouquet symbolizes warmth, hope, and the simple beauty found in everyday moments."
+    "description": "Sometimes an artwork begins without a plan. I simply wanted to draw something small, peaceful, and comforting. The bouquet and the quiet smile turned into a scene that feels both cute and quietly romantic—like someone patiently waiting with flowers for a person they care about. Created entirely with freehand pen linework."
   },
   {
     "id": 4,
-    "title": "Lost in the music",
+    "title": "Lost in the Music",
     "image": "images/artwork-04.jpeg",
     "medium": "Pencil Sketch",
     "category": "portrait",
     "year": 2025,
     "featured": false,
-    "description": "A portrait exploring quiet concentration through simple graphite shading. The headphones and side profile emphasize the immersive experience of music and moments of solitude."
+    "description": "Music has a way of making the world disappear for a while, and I wanted this portrait to capture that feeling. Rather than focusing on elaborate details, I kept the composition simple so the expression and headphones could tell the story. Drawn freehand with graphite, the piece explores soft shading, texture, and quiet moments of solitude."
   },
   {
     "id": 5,
     "title": "Quiet Perch",
     "image": "images/artwork-05.jpeg",
-    "medium": "Ballpoint pen",
+    "medium": "Blue Ballpoint Pen",
     "category": "animal",
     "year": 2023,
     "featured": false,
-    "description": "A detailed study of a small bird resting on a branch. Fine pen strokes and careful texture work were used to bring out the softness of the feathers and the rugged surface of the bark."
+    "description": "This was my very first artwork created entirely with a blue ballpoint pen. I wasn't sure how it would turn out, but seeing the tiny bird come to life through simple pen strokes made it one of my favorite early pieces. Since ballpoint ink leaves little room for mistakes, every texture and shadow was built patiently, one line at a time."
   },
   {
     "id": 6,
     "title": "Divine Strength",
     "image": "images/artwork-06.jpeg",
-    "medium": "Fineliner pen",
+    "medium": "Fineliner Pen",
     "category": "portrait",
     "year": 2023,
     "featured": false,
-    "description": "An intricate pen illustration of Goddess Durga with detailed ornamental patterns and traditional symbolism. Every line was carefully placed to celebrate strength, courage, and devotion."
+    "description": "Drawn during Navaratri while I was still in school, this artwork took nearly two days to complete. I wanted to portray Goddess Durga as a symbol of courage, protection, and divine strength. Every ornamental pattern and flowing line was drawn freehand with fineliner pens, reminding me that patience is often the most important part of creating detailed art."
   },
   {
     "id": 7,
-    "title": "Through the eyes",
+    "title": "Through the Eyes",
     "image": "images/artwork-07.jpeg",
     "medium": "Pencil Sketch",
     "category": "portrait",
     "year": 2025,
     "featured": true,
-    "description": "This portrait explores how emotion and expression can be conveyed through the smallest details."
+    "description": "This piece holds a quiet memory from my second year of engineering. While drawing it, a song kept playing in the background, making the artwork feel like an unspoken confession that words could never quite express. I believe eyes often reveal emotions long before voices do, and this portrait was my attempt to capture that silent conversation through graphite."
   },
   {
     "id": 8,
-    "title": "Radha-Krishna",
+    "title": "Radha–Krishna",
     "image": "images/artwork-08.jpeg",
-    "medium": "Fineliner pen",
+    "medium": "Fineliner Pen",
     "category": "portrait",
     "year": 2023,
     "featured": false,
-    "description": "A graceful pen illustration inspired by Radha and Krishna, emphasizing flowing garments, expressive movement, and delicate floral elements to represent harmony and timeless devotion."
+    "description": "Created during my school days, this artwork was inspired by the timeless bond between Radha and Krishna. Their story has always represented devotion, harmony, and love beyond words. Using freehand pen linework, I focused on graceful movement, flowing forms, and delicate details to reflect that feeling."
   },
   {
     "id": 9,
     "title": "Grace of Ganesha",
     "image": "images/artwork-09.jpeg",
-    "medium": "Fineliner pen",
+    "medium": "Fineliner Pen",
     "category": "portrait",
     "year": 2023,
     "featured": false,
-    "description": "A detailed pen illustration of Lord Ganesha, capturing his divine presence through intricate patterns, calm expression, and balanced composition. The artwork combines traditional symbolism with modern linework to create a piece that feels both timeless and contemporary."
+    "description": "This artwork was created during the lockdown, when drawing became one of my favorite ways to spend time. Inspired by Lord Ganesha, I wanted to create something detailed yet peaceful—perhaps the kind of artwork that would earn a silent nod of approval before Ganesha went back to enjoying his modaks. Every intricate pattern was drawn freehand using fineliner pens with careful, deliberate strokes."
+  },
+  {
+    "id": 10,
+    "title": "Elegance in Tradition",
+    "image": "images/artwork-10.jpeg",
+    "medium": "Pencil Sketch",
+    "category": "portrait",
+    "year": 2023,
+    "featured": true,
+    "description": "I've always admired the elegance of traditional Indian jewellery and the delicate beauty of jasmine flowers. This sketch became my way of celebrating feminine grace through realistic graphite shading and intricate details. Drawn completely freehand, every ornament, petal, and shadow was carefully built without tracing, making it one of the pieces I'm especially proud of."
+  },
+  {
+    "id": 11,
+    "title": "Lakeside Cottage",
+    "image": "images/artwork-11.jpeg",
+    "medium": "Color Pencil",
+    "category": "nature",
+    "year": 2021,
+    "featured": false,
+    "description": "This was one of my first serious attempts with colour pencils during school. Until then, I mostly preferred graphite, but this landscape made me realize that colours could tell stories just as beautifully. It gave me the confidence to explore beyond black and white while enjoying the peaceful charm of nature."
+  },
+  {
+    "id": 12,
+    "title": "Mandala Wolf",
+    "image": "images/artwork-12.jpeg",
+    "medium": "Pen Art",
+    "category": "animal",
+    "year": 2023,
+    "featured": true,
+    "description": "This is one of the most time-consuming and challenging pieces I've ever created, and one I'm especially proud of. Every intricate pattern was drawn patiently by hand to reflect the wolf's fearless spirit, resilience, and quiet confidence. If this artwork carries one message, it's this: move through life like a wolf—stay loyal, trust your instincts, and never be afraid to stand alone when your path demands it."
+  },
+  {
+    "id": 13,
+    "title": "A Mother's Embrace",
+    "image": "images/artwork-13.jpeg",
+    "medium": "Watercolour Illustration",
+    "category": "portrait",
+    "year": 2023,
+    "featured": true,
+    "description": "I finished this artwork in a hurry, and I know the proportions and outlines aren't perfect. Yet, whenever I look at it, I don't notice those imperfections first—I notice the warmth between a mother and her daughter. Sometimes it's the feeling behind a drawing that matters more than perfect lines, and that's what makes this piece special to me."
+  },
+  {
+    "id": 14,
+    "title": "Quiet Alley",
+    "image": "images/artwork-14.jpeg",
+    "medium": "Blue Ballpoint Pen",
+    "category": "pen",
+    "year": 2023,
+    "featured": false,
+    "description": "This drawing made me believe that a simple ballpoint pen could create far more than quick notes. Every brick, window, and shadow was built using thousands of small strokes, teaching me patience and control. It became one of the artworks that encouraged me to keep exploring pen art."
+  },
+  {
+    "id": 15,
+    "title": "Friendly Neighborhood Hero",
+    "image": "images/artwork-15.jpeg",
+    "medium": "Pencil Sketch",
+    "category": "portrait",
+    "year": 2023,
+    "featured": false,
+    "description": "Another tribute to my favorite superhero—and, of course, to Tom Holland's Spider-Man. I wanted to capture Peter Parker before the mask, where determination quietly speaks louder than superpowers. As Spider-Man reminds us, 'With great power comes great responsibility,' and perhaps that responsibility begins with believing in ourselves."
+  },
+  {
+    "id": 16,
+    "title": "Festival Glow",
+    "image": "images/artwork-16.jpeg",
+    "medium": "Poster Colours",
+    "category": "other",
+    "year": 2023,
+    "featured": true,
+    "description": "Painted during Deepavali, this piece wasn't created with complete focus, and I know it isn't technically my best. Still, I love how a single diya quietly became the center of the composition, reminding me that even the smallest light can brighten the darkest night. Sometimes an artwork doesn't need to be perfect to preserve a beautiful memory."
+  },
+  {
+    "id": 17,
+    "title": "Quiet Companionship",
+    "image": "images/artwork-17.jpeg",
+    "medium": "Pencil Sketch",
+    "category": "portrait",
+    "year": 2023,
+    "featured": true,
+    "description": "I absolutely love cats—their calm nature, endless naps, and the comfort they bring simply by being around. This drawing reflects that peaceful feeling through the quiet bond between a girl and her sleeping companion. If I had to describe happiness in one sketch, it would probably look something like this."
+  },
+  {
+    "id": 18,
+    "title": "Classic Ride",
+    "image": "images/artwork-18.jpeg",
+    "medium": "Ballpoint Pen Sketch",
+    "category": "other",
+    "year": 2026,
+    "featured": false,
+    "description": "This was more of a time-pass sketch than a planned artwork. I wasn't chasing perfection—I simply wanted to enjoy the process of drawing a classic motorcycle using confident pen strokes. Sometimes the best way to improve is to keep sketching, even when there's no bigger reason than the joy of creating."
+  },
+  {
+    "id": 19,
+    "title": "Silent Connection",
+    "image": "images/artwork-19.jpeg",
+    "medium": "Ballpoint Pen Sketch",
+    "category": "portrait",
+    "year": 2026,
+    "featured": false,
+    "description": "Inspired by an image I found on Pinterest and the atmosphere of Hwasa's song 'Goodbye,' I wanted to capture a moment where emotions are spoken without words. Sometimes a single glance says more than an entire conversation, and that quiet connection became the heart of this sketch."
+  },
+  {
+    "id": 20,
+    "title": "Journey Through the Solar System",
+    "image": "images/artwork-20.jpeg",
+    "medium": "Poster Colours",
+    "category": "other",
+    "year": 2021,
+    "featured": false,
+    "description": "I created this during my school days without worrying much about realism or accuracy—I simply wanted to paint something that looked exciting. Looking back, it reminds me that curiosity often comes before skill. Many of my school artworks aren't perfect, but they reflect the patience, interest, and excitement that first made me fall in love with drawing."
   }
 ]
