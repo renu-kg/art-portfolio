@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Renu K G — Art Gallery</title>
+  <meta name="description"
+    content="The art portfolio of Renu K G, a Computer Science Engineering student from Davanagere, Karnataka, specialising in detailed pencil sketches and pen artworks.">
+  <meta name="keywords"
+    content="pencil sketch, pen art, graphite drawing, ink art, artist portfolio, portrait, nature illustration, Renu K G">
+  <meta name="author" content="Renu K G">
+  <meta name="robots" content="index, follow">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="hsl(220, 16%, 7%)">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Renu K G — Pencil Sketch &amp; Pen Art Portfolio">
+  <meta property="og:description"
+    content="A CSE student from Karnataka capturing emotions and moments through pencil and pen — one stroke at a time.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/profile.jpg">
+
+  <!-- Favicon (pencil emoji SVG) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✏️</text></svg>">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="index.html">
+
+  <!-- Google Fonts (preconnect for performance) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/hero.css">
+
+  <!-- Theme — loads in <head> to prevent flash -->
+  <script src="js/theme.js"></script>
+</head>
+
+<body>
+
+  <!-- Skip to main content (keyboard accessibility) -->
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- ════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="Renu K G — Home">
+        <svg class="logo-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+          <path d="m15 5 4 4" />
+        </svg>
+        <span class="logo-text">Renu K G</span>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to light mode" type="button">
+          <!-- Sun -->
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+          </svg>
+          <!-- Moon -->
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+          </svg>
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"
+          type="button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile nav overlay -->
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+
+  <!-- ════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════ -->
+  <section class="hero" id="hero" aria-label="Artist introduction">
+    <div class="hero-container" id="main-content">
+
+      <!-- Content -->
+      <div class="hero-content" data-reveal>
+        <p class="hero-eyebrow">CSE Student &amp; Pencil · Pen Artist</p>
+
+        <h1 class="hero-title">
+          Renu <span class="hero-title-line accent">K G</span>
+        </h1>
+
+        <p class="hero-subtitle">Capturing emotions and moments — one stroke at a time.</p>
+
+        <p class="hero-description">
+          Hi! I'm Renu K G, a Computer Science Engineering student from Karnataka with a passion
+          for pencil and pen sketching. Drawing has always been my creative escape, allowing me
+          to capture emotions, stories, and moments through simple lines and shades.
+        </p>
+
+        <div class="hero-cta">
+          <a href="gallery.html" class="btn btn-primary" id="heroGalleryBtn" data-ga="contact">View Gallery</a>
+          <a href="contact.html" class="btn btn-ghost" id="heroContactBtn">Get in Touch</a>
+        </div>
+
+        <div class="hero-social">
+          <span class="hero-social-label">Find me on</span>
+          <div class="hero-social-links">
+            <a href="https://github.com/renu-kg" class="hero-social-link" aria-label="GitHub" data-social="github"
+              target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/renu-k-g-9aaa152a6/" class="hero-social-link" aria-label="LinkedIn"
+              data-social="linkedin" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="https://pin.it/g6fN6bqMo" class="hero-social-link" aria-label="Pinterest" data-social="pinterest"
+              target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile image -->
+      <div class="hero-image-wrapper" data-reveal data-delay="200">
+        <div class="hero-image-frame">
+          <img src="images/profile2.png" alt="Renu K G — Artist" class="hero-image">
+          <div class="hero-deco-ring" aria-hidden="true"></div>
+          <div class="hero-deco-ring" aria-hidden="true"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="hero-scroll" aria-hidden="true">
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       FEATURED WORKS
+  ════════════════════════════════════════ -->
+  <section class="featured-section" id="featured" aria-labelledby="featuredHeading">
+    <div class="container">
+      <header class="section-header" data-reveal>
+        <p class="section-eyebrow">Selected Works</p>
+        <h2 class="section-title" id="featuredHeading">Featured Artworks</h2>
+        <p class="section-subtitle">A curated selection from the studio — each piece a story told in graphite and ink.
+        </p>
+      </header>
+
+      <!-- Cards injected by home.js -->
+      <div class="featured-grid" id="featuredGrid" aria-live="polite"></div>
+
+      <div class="section-footer" data-reveal>
+        <a href="gallery.html" class="btn btn-outline" id="viewAllBtn" data-ga="contact">Browse Full Gallery &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       ABOUT TEASER
+  ════════════════════════════════════════ -->
+  <section class="about-teaser" id="about-teaser" aria-labelledby="teaserHeading">
+    <div class="container">
+      <div class="about-teaser-inner">
+        <div class="about-teaser-img-wrap" data-reveal>
+          <img src="images/profile2.png" alt="Renu K G — Artist at work" loading="lazy">
+        </div>
+        <div class="about-teaser-content">
+          <p class="section-eyebrow" data-reveal>"The artist's eye"</p>
+          <h2 class="about-teaser-quote" id="teaserHeading" data-reveal>
+            "Every blank page is a universe waiting to remember itself."
+          </h2>
+          <p class="about-teaser-text" data-reveal>
+            I'm a Computer Science Engineering student from Davanagere, Karnataka, with a lifelong
+            passion for sketching. What started as idle doodles in school notebooks became a creative
+            obsession — exploring emotions, stories, and moments through pencil and pen. I believe
+            patience is the most important tool in any artist's kit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div>
+          <span class="footer-logo">Renu K G</span>
+          <p class="footer-tagline">Computer Science Engineering Student &bull; Pencil &amp; Pen Artist</p>
+          <div class="footer-social">
+            <a href="https://github.com/renu-kg" class="footer-social-link" aria-label="GitHub" data-social="github"
+              target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/renu-k-g-9aaa152a6/" class="footer-social-link" aria-label="LinkedIn"
+              data-social="linkedin" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="https://pin.it/g6fN6bqMo" class="footer-social-link" aria-label="Pinterest" data-social="pinterest"
+              target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navigate -->
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            <a href="mailto:kgrenu1@gmail.com">kgrenu1@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span>Davanagere, Karnataka, India</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="copyrightYear">2024</span> Renu K G. All rights reserved.</p>
+        <p>Crafted with graphite &amp; ❤</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/nav.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/analytics.js"></script>
+  <script>
+    /* Dynamic copyright year */
+    var y = document.getElementById('copyrightYear');
+    if (y) y.textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Spider-Man",
+    "image": "images/artwork-01.jpeg",
+    "medium": "Pencil Sketch",
+    "category": "portrait",
+    "year": 2026,
+    "featured": true,
+    "description": "Inspired by the energy and movement of Spider-Man, this sketch focuses on dynamic anatomy, dramatic lighting, and expressive shading to capture a moment of action frozen in time."
+  },
+  {
+    "id": 2,
+    "title": "Cosmic Stillness",
+    "image": "images/artwork-02.jpeg",
+    "medium": "Fineliner pen on paper",
+    "category": "portrait",
+    "year": 2026,
+    "featured": true,
+    "description": "A symbolic depiction of Lord Shiva in meditation, surrounded by flowing forms that represent balance, energy, and inner peace. Created using expressive pen strokes and layered line work."
+  },
+  {
+    "id": 3,
+    "title": "Winter bloom",
+    "image": "images/artwork-03.jpeg",
+    "medium": "Fineliner pen on paper",
+    "category": "other",
+    "year": 2026,
+    "featured": false,
+    "description": "A cozy illustration capturing a quiet winter moment. The contrast between the bundled figure and the delicate bouquet symbolizes warmth, hope, and the simple beauty found in everyday moments."
+  },
+  {
+    "id": 4,
+    "title": "Lost in the music",
+    "image": "images/artwork-04.jpeg",
+    "medium": "Pencil Sketch",
+    "category": "portrait",
+    "year": 2025,
+    "featured": false,
+    "description": "A portrait exploring quiet concentration through simple graphite shading. The headphones and side profile emphasize the immersive experience of music and moments of solitude."
+  },
+  {
+    "id": 5,
+    "title": "Quiet Perch",
+    "image": "images/artwork-05.jpeg",
+    "medium": "Ballpoint pen",
+    "category": "animal",
+    "year": 2023,
+    "featured": false,
+    "description": "A detailed study of a small bird resting on a branch. Fine pen strokes and careful texture work were used to bring out the softness of the feathers and the rugged surface of the bark."
+  },
+  {
+    "id": 6,
+    "title": "Divine Strength",
+    "image": "images/artwork-06.jpeg",
+    "medium": "Fineliner pen",
+    "category": "portrait",
+    "year": 2023,
+    "featured": false,
+    "description": "An intricate pen illustration of Goddess Durga with detailed ornamental patterns and traditional symbolism. Every line was carefully placed to celebrate strength, courage, and devotion."
+  },
+  {
+    "id": 7,
+    "title": "Through the eyes",
+    "image": "images/artwork-07.jpeg",
+    "medium": "Pencil Sketch",
+    "category": "portrait",
+    "year": 2025,
+    "featured": true,
+    "description": "This portrait explores how emotion and expression can be conveyed through the smallest details."
+  },
+  {
+    "id": 8,
+    "title": "Radha-Krishna",
+    "image": "images/artwork-08.jpeg",
+    "medium": "Fineliner pen",
+    "category": "portrait",
+    "year": 2023,
+    "featured": false,
+    "description": "A graceful pen illustration inspired by Radha and Krishna, emphasizing flowing garments, expressive movement, and delicate floral elements to represent harmony and timeless devotion."
+  },
+  {
+    "id": 9,
+    "title": "Grace of Ganesha",
+    "image": "images/artwork-09.jpeg",
+    "medium": "Fineliner pen",
+    "category": "portrait",
+    "year": 2023,
+    "featured": false,
+    "description": "A detailed pen illustration of Lord Ganesha, capturing his divine presence through intricate patterns, calm expression, and balanced composition. The artwork combines traditional symbolism with modern linework to create a piece that feels both timeless and contemporary."
+  }
+]
