@@ -178,11 +178,11 @@ Also update the email and location in the footer contact section:
 
 1. Take a photo or choose an image you want to use as your profile picture.
 
-2. Rename the file to `profile2.png` or `profile.jpg`.
+2. Rename the file to `profile.jpg`.
 
-3. Copy it into the `images/` folder, replacing the existing profile picture.
+3. Copy it into the `images/` folder, replacing the existing `profile.jpg`.
 
-4. Make sure the filename in `index.html` matches (`images/profile2.png` or `images/profile.jpg`).
+4. The website will automatically use the new image on the Home page and in the About section.
 
 
 > **Tips for the best result:**
