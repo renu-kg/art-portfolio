@@ -30,7 +30,7 @@
   'use strict';
 
   /* ── Measurement ID ──────────────────────────────────────────────────── */
-  var GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // ← Replace with your actual GA4 ID
+  var GA_MEASUREMENT_ID = 'G-XL14PP4ZHX';
 
   /* Skip on local file system — fetch() and analytics won't work there */
   if (window.location.protocol === 'file:') {
